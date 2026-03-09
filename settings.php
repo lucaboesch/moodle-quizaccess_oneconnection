@@ -27,7 +27,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 if ($ADMIN->fulltree) {
-
     // General section heading.
     $settings->add(
         new admin_setting_heading(

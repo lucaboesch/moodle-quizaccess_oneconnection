@@ -140,9 +140,9 @@ Version 5.0+ features were developed based on specifications by **Marco Lehre**,
 
 ## Links
 
-*   **Plugin Page:** [moodle.org/plugins - to be created]
-*   **Latest Code:** [GitHub repository - to be created]
-*   **Issue Tracker:** [GitHub Issues - to be created]
+*   **Plugin Page:** https://moodle.org/plugins/quizaccess_oneconnection
+*   **Latest Code:** https://github.com/lernlink/moodle-quizaccess_oneconnection
+*   **Issue Tracker:** https://github.com/lernlink/moodle-quizaccess_oneconnection/issues
 
 ## Changelog
 
@@ -192,4 +192,4 @@ GNU GPL v3 or later
 
 ## Support
 
-For issues, feature requests, or contributions, please use the GitHub issue tracker [link to be added].
+For issues, feature requests, or contributions, please use the GitHub issue tracker https://github.com/lernlink/moodle-quizaccess_oneconnection/issues.

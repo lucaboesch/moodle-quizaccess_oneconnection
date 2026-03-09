@@ -35,9 +35,7 @@ require_once($CFG->dirroot . '/mod/quiz/backup/moodle2/backup_mod_quiz_access_su
  * in a course backup.
  * @package quizaccess_oneconnection
  */
-class backup_quizaccess_oneconnection_subplugin extends backup_mod_quiz_access_subplugin
-{
-
+class backup_quizaccess_oneconnection_subplugin extends backup_mod_quiz_access_subplugin {
     /**
      * Define the structure of the data to be added to the quiz backup XML.
      *

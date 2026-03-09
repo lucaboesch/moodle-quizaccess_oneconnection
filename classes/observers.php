@@ -35,9 +35,7 @@ use core\event\base;
  * is no longer active (finished, abandoned, submitted or deleted).
  * @package quizaccess_oneconnection
  */
-class observers
-{
-
+class observers {
     /**
      * Remove unneeded session information when an attempt is no longer active.
      *

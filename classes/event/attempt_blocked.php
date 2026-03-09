@@ -35,9 +35,7 @@ use moodle_url;
  * Event class for when a quiz attempt is blocked due to a session mismatch.
  * @package quizaccess_oneconnection\event
  */
-class attempt_blocked extends base
-{
-
+class attempt_blocked extends base {
     /**
      * Initialises the event data.
      *

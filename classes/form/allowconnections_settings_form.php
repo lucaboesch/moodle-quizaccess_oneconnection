@@ -36,9 +36,7 @@ require_once($CFG->libdir . '/formslib.php');
  * This form provides filtering and display options for the report.
  * @package quizaccess_oneconnection\form
  */
-class allowconnections_settings_form extends \moodleform
-{
-
+class allowconnections_settings_form extends \moodleform {
     /**
      * Build the form definition.
      *

@@ -34,9 +34,7 @@ use moodle_url;
  * Event class for when a quiz attempt's session lock is manually removed.
  * @package quizaccess_oneconnection\event
  */
-class attempt_unlocked extends base
-{
-
+class attempt_unlocked extends base {
     /**
      * Initialises the event data.
      *

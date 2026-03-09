@@ -44,7 +44,6 @@ use core_privacy\local\request\core_userlist_provider;
  * @package quizaccess_oneconnection\privacy
  */
 class provider implements core_userlist_provider, metadata_provider, plugin_provider {
-
     /**
      * Get the metadata that describes the data stored by this plugin.
      *
@@ -217,7 +216,7 @@ class provider implements core_userlist_provider, metadata_provider, plugin_prov
         $userids = $userlist->get_userids();
 
         // Build a query to delete log entries for the specified users in this quiz.
-        list($insql, $inparams) = $DB->get_in_or_equal($userids, SQL_PARAMS_NAMED);
+        [$insql, $inparams] = $DB->get_in_or_equal($userids, SQL_PARAMS_NAMED);
         $params = ['quizid' => $quizid] + $inparams;
 
         $DB->delete_records_select(

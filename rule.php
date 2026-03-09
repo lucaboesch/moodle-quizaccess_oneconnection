@@ -49,7 +49,6 @@ use mod_quiz\quiz_attempt;
  * @package quizaccess_oneconnection
  */
 class quizaccess_oneconnection extends access_rule_base {
-
     /**
      * Create an instance of this rule if applicable to the given quiz.
      *

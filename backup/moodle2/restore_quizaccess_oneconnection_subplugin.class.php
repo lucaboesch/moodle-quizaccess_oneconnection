@@ -35,9 +35,7 @@ require_once($CFG->dirroot . '/mod/quiz/backup/moodle2/restore_mod_quiz_access_s
  * inserting it into the database during a course restore.
  * @package quizaccess_oneconnection
  */
-class restore_quizaccess_oneconnection_subplugin extends restore_mod_quiz_access_subplugin
-{
-
+class restore_quizaccess_oneconnection_subplugin extends restore_mod_quiz_access_subplugin {
     /**
      * Describe the XML paths that store the subplugin's data.
      *
